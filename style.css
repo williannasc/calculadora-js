@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face {
+    font-family: 'Segment7';
+    src: url('/font/Segment7Standard.otf)');
+    src: local('Segment7'), local('Segment7'), url('/font/Segment7Standard.otf') format('truetype');
+}
+body{
+    background-color: #1B1F27;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+.area{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calculadora{
+    background-color: #181920;
+    width: 250px;
+    height: 410px;
+    border-radius: 7px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calc_title{
+    color: white;
+    font-size: 25px;
+}
+.botao{
+    background-color: #252a34;
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    margin: 1px;
+}
+
+.botao:hover{
+    background-color: #3a47ac;
+}
+
+.zero{
+    width: 106px;
+}
+.igual{
+    height: 106px;
+}
+
+.resultado{
+    
+    background-color: white;
+    border-radius: 5px;
+    text-align: right;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+}

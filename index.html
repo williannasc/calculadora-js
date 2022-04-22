@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+	<link rel="shortcut icon" type="imagex/png" href="icon.ico">
+	
+    <title>Calculadora</title>
+	
+
+</head>
+<body>
+
+	<header>
+		
+	</header>
+
+	<main>
+		<section class="area">
+			<div class="calculadora">
+				<h1 class="calc_title">Calculadora</h1>
+				<p maxlength="15" class="resultado" id="resultado"></p>
+				<table>
+					<tr>
+						<td><button class="botao" onclick="limpa()">C</button></td>
+						<td><button class="botao" onclick="apagar()">←</button></td>
+						<td><button class="botao" onclick="insert('/')">/</button></td>
+						<td><button class="botao" onclick="insert('*')">*</button></td>
+					</tr>
+					<tr>
+						<td><button class="botao" onclick="insert('7')">7</button></td>
+						<td><button class="botao" onclick="insert('8')">8</button></td>
+						<td><button class="botao" onclick="insert('9')">9</button></td>
+						<td><button class="botao" onclick="insert('-')">-</button></td>
+					</tr>
+					<tr>
+						<td><button class="botao" onclick="insert('4')">4</button></td>
+						<td><button class="botao" onclick="insert('5')">5</button></td>
+						<td><button class="botao" onclick="insert('6')">6</button></td>
+						<td><button class="botao" onclick="insert('+')">+</button></td>
+					</tr>
+					<tr>
+						<td><button class="botao" onclick="insert('1')">1</button></td>
+						<td><button class="botao" onclick="insert('2')">2</button></td>
+						<td><button class="botao" onclick="insert('3')">3</button></td>
+						<td rowspan="2"><button class="botao igual" onclick="calcular()">=</button></td>
+					</tr>
+					<tr>
+						<td colspan="2" ><button class="botao zero" onclick="insert('0')">0</button></td>
+						<td><button class="botao" onclick="insert('.')">.</button></td>
+
+					</tr>
+
+
+
+				</table>
+		
+
+			
+			</div>
+			
+		</section>
+	</main>
+    
+	<script src="calculadora.js"></script>
+</body>
+
+</html>
